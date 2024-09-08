@@ -1,9 +1,8 @@
-# Nuxt Content
+# à propos
 
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
+Je suis une chercheuse d’idées en phase avec mon époque, en quête incessante de visions justes et contemporaines pour le monde de demain.
 
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
+La création sollicite notre intuition, notre imagination et nous permet de nous laisser traverser par nos émotions. Elle est une énergie en mouvement. Une direction à prendre.
 
----
+Œuvrer est un processus. Bienvenue à bord !
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
