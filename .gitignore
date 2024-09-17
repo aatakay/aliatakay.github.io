@@ -26,3 +26,6 @@ node_modules
 .data
 .env
 dist
+
+public/img_original
+.DS_Store
