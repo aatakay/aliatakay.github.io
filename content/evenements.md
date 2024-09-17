@@ -1,3 +1,7 @@
+---
+head: { "title": événements | ali atakay }
+---
+
 # événements
 
 | Date | Place | Heurs |

@@ -1,3 +1,7 @@
+---
+head: { "title": bienvenue | ali atakay }
+---
+
 # ali atakay
 
 Ali Atakay, né en 1995, est un artiste collagiste dont le travail se distingue par une intégration audacieuse de la textualité dans l'image. Son œuvre transcende les frontières habituelles de l'art visuel en recontextualisant le quotidien, transformant des fragments de vie et des mots en compositions visuelles et poétiques.
