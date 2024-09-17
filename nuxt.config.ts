@@ -4,8 +4,5 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/image'],
   routeRules: {
     '/': { prerender: true }
-  },
-  image: {
-    dir: 'public/img'
   }
 })
