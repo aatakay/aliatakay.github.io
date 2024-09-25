@@ -6,3 +6,6 @@ head: { "title": publication | ali atakay }
 
 ![Cartel d'expo img.png](/img/0.png)
 <img src="/img/1.png" />
+
+![catalogue.png](/img/0.png)
+<img src="/img/1.png" />
