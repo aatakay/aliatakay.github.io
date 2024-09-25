@@ -67,8 +67,9 @@ nav {
 }
 
 main {
-  max-width: 900px;
   margin: 0 auto;
+  padding: 0 1em;
+  max-width: 900px;
   max-height: 100vh;
   overflow-y: scroll;
 }
@@ -90,7 +91,9 @@ h1, h2, h3, h4, h5, h6 {
 
   main {
     max-height: unset;
+    padding: unset;
     overflow: hidden;
+    overflow-x: scroll;
   }
 
   #main-section {
