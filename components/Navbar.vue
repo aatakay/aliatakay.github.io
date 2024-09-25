@@ -5,10 +5,10 @@ import Subscribe from './Subscribe.vue'
 <template>
 	<nav>
 		<section>
-			<!-- <span class="logo">
+			<a class="logo" href="/">
 				<span class="newsreader">ali</span><span class="merriweather">atakay</span>
-			</span> -->
-			<span class="merriweather">ali atakay</span>
+			</a>
+			<!-- <span class="merriweather">ali atakay</span> -->
 			<ContentNavigation v-slot="{ navigation }">
 				<ul>
 					<li
@@ -31,7 +31,8 @@ nav {
 .logo {
 	/* get first child */
 	font-size: 2rem;
-	background-color: firebrick;
+	background-color: black;
+	transition: all ease-in-out .25s;
 }
 
 .logo:hover span:first-child {
@@ -39,23 +40,39 @@ nav {
 }
 /* get logo first child */
 .logo > span:first-child {
+	background-color: black;
+	color: white;
+	transition: all ease-in-out .25s;
 	transition: all ease-in-out 0.25s;
-	color: #FFA500;
 	display: inline-block;
 	transform: rotate(25deg);
-	background-color: bisque;
 	padding: 0.25em;
 	margin-right: -1em;
 	z-index: 1;
 }
 /* get logo second child */
 .logo > span:last-child {
+	background-color: white;
+	color: black;
+	transition: all ease-in-out .25s;
 	display: inline-block;
 	transform: rotate(-5deg);
-	background-color: teal;
 	padding: 0.5em;
-	color: aliceblue;
 	z-index: 9;
+}
+
+.logo:hover {
+	background-color: white;
+}
+
+.logo:hover span:first-child {
+	background-color: white;
+	color: black;
+}
+
+.logo:hover span:last-child {
+	color: white;
+	background-color: black;
 }
 
 nav {
@@ -106,6 +123,7 @@ ul > li > a {
 @media (max-width: 1200px) {
 	nav {
 		height: unset;
+		width: 100%;
 		padding-right: unset;
 		/* position: relative; */
 	}

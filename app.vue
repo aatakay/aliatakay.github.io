@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: unset;
     overflow: hidden;
     overflow-x: scroll;
+    max-width: 600px;
   }
 
   #main-section {
