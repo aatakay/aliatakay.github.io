@@ -4,8 +4,8 @@ head: { "title": publication | ali atakay }
 
 # publication
 
-![Cartel d'expo img.png](/img/0.png)
-<img src="/img/1.png" />
+![Cartel d'expo img.png](/Cartel d'expo img.png)
+<img src="/Cartel d'expo img.png" />
 
-![catalogue.png](/img/0.png)
-<img src="/img/1.png" />
+![catalogue.png](/img/catalogue.png)
+<img src="/img/catalogue.png" />
