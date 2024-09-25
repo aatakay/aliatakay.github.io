@@ -82,6 +82,8 @@ form {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .25cap;
+	background-color: white;
+	color: #333;
 }
 
 #submit-input:hover {
