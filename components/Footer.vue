@@ -34,10 +34,12 @@ aside {
 	padding: 1em;
 	height: 90%;
 	max-height: 95vh;
+	margin: auto;
 }
 
 #footer-container {
-	width: 100vw;
+	width: 900px;
+	max-width: 100vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
