@@ -22,7 +22,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .newsreader {
@@ -41,9 +41,10 @@ body {
 
 #main-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   width: 100vw;
+  height: 100vh;
 }
 
 #content-section {
@@ -62,6 +63,10 @@ body {
   min-width: 20vw;
 }
 
+main::-webkit-scrollbar {
+  display: none;
+}
+
 nav {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -72,6 +77,7 @@ main {
   max-width: 900px;
   max-height: 100vh;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 main img {
