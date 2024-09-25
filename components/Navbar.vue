@@ -1,3 +1,7 @@
+<script>
+import Subscribe from './Subscribe.vue'
+</script>
+
 <template>
 	<nav>
 		<section>
@@ -16,23 +20,14 @@
 				</ul>
 			</ContentNavigation>
 		</section>
-		<section>
-			<span id="copyright-container"><strong>© Ali Atakay</strong><br>Mentions légales</span>
-			<span id="socials-container">
-
-				<a href="https://www.instagram.com/citronbleu_kolaj/" target="_blank">
-					<img style="height: 1em" src="/icons/instagram.png" alt="Instagram" />
-				</a>
-				
-				<a href="https://fr.linkedin.com/in/ali-atakay" target="_blank">
-					<img style="height: 1em" src="/icons/linkedin.png" alt="LinkedIn"/>
-				</a>
-			</span>
-		</section>
 	</nav>
 </template>
 
 <style>
+nav {
+	padding-right: 3em;
+}
+
 .logo {
 	/* get first child */
 	font-size: 2rem;
@@ -64,7 +59,7 @@
 }
 
 nav {
-	position: fixed;
+	/* position: fixed; */
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -108,31 +103,11 @@ ul > li > a {
 	font-size: 1.5em;
 }
 
-#copyright-container {
-	margin-top: auto;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.75em;
-  color: #333;
-	font-weight: unset;
-}
-
-#socials-container {
-	display: flex;
-	justify-content: space-around;
-}
-
-#socials-container > a {
-	margin: 0 0.25em;
-}
-
-#socials-container > a > img {
-	font-size: 0.5em;
-}
-
 @media (max-width: 1200px) {
 	nav {
 		height: unset;
-		position: relative;
+		padding-right: unset;
+		/* position: relative; */
 	}
 	
 	nav > section {
@@ -143,7 +118,7 @@ ul > li > a {
 		flex-direction: row;
 		justify-content: space-between;
 		border-left: unset;
-		margin-left: 0;
+		margin-left: unset;
 	}
 
 	ul > li::before {
@@ -154,31 +129,20 @@ ul > li > a {
 		content: ' /'
 	}
 
-	nav > section:last-child {
+	/* nav > section:last-child {
 		background: rgba(255, 255, 255, 0.75);
 		backdrop-filter: blur(5px);
 		flex-direction: row;
-		/* fixed center at bottom */
 		position: fixed;
 		bottom: 0;
 		left: 0;
 		width: 25%;
 		margin-left: calc(50% - 12.5%);
 		border-radius: 15px;
-	}
-
-	/* #copyright-container {
-		position: fixed;
-		bottom: 10px;
-	}
-
-	#socials-container {
-		position: fixed;
-		bottom: 30px;
 	} */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 	ul {
 		flex-direction: column;
 		text-align: center;

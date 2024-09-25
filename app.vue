@@ -4,14 +4,26 @@ import Navbar from './components/Navbar.vue';
 
 <template>
   <section id="main-section">
-    <Navbar language="en" />
-    <NuxtPage />
+    <section id="content-section">
+      <Navbar language="en" />
+      <NuxtPage />
+    </section>
+    <section id="footer-section">
+      <Footer />
+    </section>
   </section>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: hidden;
+}
 
 .newsreader {
   font-family: "Newsreader", serif;
@@ -29,6 +41,25 @@ import Navbar from './components/Navbar.vue';
 
 #main-section {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+#content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  max-width: 80vw;
+}
+
+#footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 20vw;
 }
 
 nav {
@@ -36,8 +67,10 @@ nav {
 }
 
 main {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
+  max-height: 100vh;
+  overflow-y: scroll;
 }
 
 main img {
@@ -50,11 +83,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1200px) {
+  body {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  main {
+    max-height: unset;
+    overflow: hidden;
+  }
+
   #main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 96vh;
+  }
+
+  #content-section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
+    width: 100vw;
+  }
+
+  main {
+    width: 100%;
+    max-width: 100vw;
   }
 }
 
