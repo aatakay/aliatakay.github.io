@@ -1,8 +1,8 @@
 ---
-head: { "title": exposition | ali atakay }
+head: { "title": œuvres | ali atakay }
 ---
 
-# exposition
+# œuvres
 
 Lorem ipsum dolor sit amet.
 
