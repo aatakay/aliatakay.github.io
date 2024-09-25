@@ -10,11 +10,11 @@ import Subscribe from './Subscribe.vue'
 			<h3>ou suivre sur les sociaux</h3>
 			<div id="socials-icons-container">
 				<a href="https://www.instagram.com/citronbleu_kolaj/" target="_blank">
-					<img style="height: 1em" src="/icons/instagram.png" alt="Instagram" />
+					<img style="height: 1.5em" src="/icons/instagram.png" alt="Instagram" />
 				</a>
 				
 				<a href="https://fr.linkedin.com/in/ali-atakay" target="_blank">
-					<img style="height: 1em" src="/icons/linkedin.png" alt="LinkedIn"/>
+					<img style="height: 1.5em" src="/icons/linkedin.png" alt="LinkedIn"/>
 				</a>
 			</div>
 		</div>
