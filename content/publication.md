@@ -4,4 +4,5 @@ head: { "title": publication | ali atakay }
 
 # publication
 
-Lorem ipsum dolor sit amet.
+![Cartel d'expo img.png](/img/0.png)
+<img src="/img/1.png" />
