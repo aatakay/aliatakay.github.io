@@ -1,8 +1,8 @@
 <template>
-	<iframe 
-		src="https://docs.google.com/forms/d/e/1FAIpQLSfbsnH75ak1ui69UVgrKmZRqlyO8PIF6p9BymFd5xA0Iztbjg/viewform?embedded=true" 
+	<iframe
+		src="https://us11.list-manage.com/contact-form?u=0954f1826d585ac45d4b057b7&form_id=1f58ffa0927bf85b15232a6da8172060"
 		width="100%"
-		height="1000px"
+		height="1200px"
 		frameborder="0"
 		marginheight="0"
 		marginwidth="0">
