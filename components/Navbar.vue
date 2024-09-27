@@ -17,6 +17,9 @@ import Subscribe from './Subscribe.vue'
 					>
 						<NuxtLink :to="link._path" v-text="link.title"/>
 					</li>
+					<li>
+						<NuxtLink to="/contact" v-text="'contact'" />
+					</li>
 				</ul>
 			</ContentNavigation>
 		</section>
